@@ -2,7 +2,7 @@
 
 ## Clue-Style Logical Reasoning Game in Python
 
-This project demonstrates a *Clue*-style logical deduction game using propositional logic. It employs concepts from AI Knowledge Representation and Logical Reasoning to model and solve the game. The program utilizes a custom `logic.py` module to represent symbols and sentences and performs logical inferences to determine the possible outcomes of the game.
+This project uses propositional logic to illustrate a logical deduction game in the vein of *Clue*. It models and solves the game using ideas from logical reasoning and AI knowledge representation. To represent symbols and words, the program uses a bespoke `logic.py` module. It then makes logical deductions to ascertain the game's potential outcomes.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -16,12 +16,11 @@ This project demonstrates a *Clue*-style logical deduction game using propositio
 ---
 
 ## Overview
-This project models a simple *Clue*-style game, where the AI needs to deduce:
-- Which character committed the crime
-- Where the crime happened
-- What weapon was used
+The AI must determine which character committed the act, where the crime occurred, and what weapon was used in this project's model of a straightforward *Clue*-style game.
 
-The game rules and facts are represented using propositional logic, allowing the AI to make inferences and solve the puzzle. The project can be extended to solve various logic-based puzzles beyond this example.
+
+Propositional logic is used to represent the facts and game rules, enabling the AI to draw conclusions and solve the challenge. Beyond this example, the project can be expanded to tackle other logic-based challenges.
+
 
 ---
 
@@ -45,9 +44,9 @@ The game rules and facts are represented using propositional logic, allowing the
 ---
 
 ## How It Works
-1. **Knowledge Representation**: The game uses propositional logic to define characters, rooms, and weapons as symbols. Logical sentences represent game rules and facts.
-2. **Logical Reasoning**: The `model_check` function evaluates whether the knowledge base entails specific queries. It uses a brute-force approach to check all possible models for logical entailment.
-3. **Constraints and Inference**: The program ensures that all game rules are satisfied and makes inferences to solve the puzzle.
+1. **Knowledge Representation**: Characters, rooms, and weapons are all defined as symbols in the game using propositional logic. Facts and game rules are represented by logical statements.
+2. **Logical Reasoning**: The `model_check` function determines if certain queries are present in the knowledge base. It checks for logical entailment in every potential model using a brute-force method.
+3. **Constraints and Inference**:In order to solve the problem, the program makes deductions and makes sure that all game rules are followed.
 
 ### Key Concepts
 - **Symbols**: Represent game elements (e.g., Colonel Mustard, Kitchen, Knife).
